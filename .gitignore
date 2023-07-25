@@ -1,0 +1,7 @@
+*.pyc
+_pycache_
+/.vscode
+cos/venv/
+cos/media/
+db.sqlite3
+.DS_Store

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-image: url("./assets/media/oshsu-standard-scale-2_00x-gigapixel.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0px auto;
+}
+.buttons {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.rgb {
+    background-color: rgba(23, 21, 21, 0.65);
+    min-height: 100vh;
+}
+.mantine-rsgjb6 {
+    margin: 0 !important;
+}
+.center-items {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+.form-wrapper{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+}
+form {
+    width: 100%;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-input {
+    width: 100%;
+    padding: 5px 8px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    outline: none;
+}
+.editor-height {
+    height: 20rem;
+}
+.quill {
+    height: 100%;
+}
